@@ -22,7 +22,7 @@ const Servicios = () => {
       />
       <div className="servicios-landing">
         <h1 className="servicios-title">Landing Page</h1>
-        <p className="servicios-price">Desde $2,500</p>
+        <p className="servicios-price">Desde $15,000</p>
         <div className="servicios-container">
           <div className="servicios-subcontainer">
             <img
@@ -98,7 +98,7 @@ const Servicios = () => {
       </div>
       <div className="servicios-ecommerce">
         <h1 className="servicios-title">Tienda en Línea</h1>
-        <p className="servicios-price">Desde $5,000</p>
+        <p className="servicios-price">Desde $35,000</p>
         <div className="servicios-container">
           <div className="servicios-subcontainer">
             <img
@@ -177,7 +177,7 @@ const Servicios = () => {
       </div>
       <div className="servicios-app">
         <h1 className="servicios-title">App Móvil</h1>
-        <p className="servicios-price">Desde $9,999</p>
+        <p className="servicios-price">Cotiza ahora</p>
         <div className="servicios-container">
           <div className="servicios-subcontainer">
             <img

@@ -5,12 +5,14 @@ import Home from "./Home";
 
 function App() {
   return (
+    <div className="wrapper">
     <Router>
       <Navbar />
       <Switch>
         <Route path="/" exact component={Home} />
       </Switch>
     </Router>
+    </div>
   );
 }
 

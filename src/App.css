@@ -12,6 +12,17 @@ a:hover {
   color: #3098ff;
 }
 
+body, html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 2vw;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  overflow-x: hidden;
+}
+
 .movil {
   display: none;
 }
@@ -37,6 +48,7 @@ a:hover {
   z-index: 10;
   background-color: white;
   width: 100vw;
+  padding-top: .5vw;
 }
 
 .navbar-web {
@@ -310,7 +322,7 @@ a:hover {
   font-size: 1.8vw;
   margin-left: 7vw;
   margin-top: -0.8vw;
-  width: 12vw;
+  width: 15vw;
   height: 2.3vw;
   text-align: center;
   background-color: rgba(162, 235, 160, 0.25);
